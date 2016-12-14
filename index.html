@@ -12,7 +12,7 @@
     <title>Gunnar Zemering</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
@@ -33,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Gunnar Zemering</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,10 +47,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="">Portfolio</a>
                     </li>
                 </ul>
             </div>
@@ -64,9 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
                 </div>
             </div>
         </div>
@@ -83,23 +81,50 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                    <h1>Contact Me</h1>
+
+
+                    <form class="form-horizontal" role="form" action="database-write.php" method="post" role="form" class="form-horizontal">
+
+
+                        <div class="form-group">
+                          <label for="name" class="col-sm-2 control-label" >Name:</label>
+                          <div class="col-sm-10">
+                        	<input type="text" class="form-control" id="name" name="name" placeholder="" value="">
+                        </div>
+                        </div>
+
+
+                        <div class="form-group">
+                          <label for="email" class="col-sm-2 control-label" >Email:</label>
+                          <div class="col-sm-10">
+                        	<input type="text" class="form-control" id="email" name="email" placeholder="" value="">
+                        </div>
+                        </div>
+
+                        <div class="form-group">
+                        <label for="message" class="col-sm-2 control-label" >Message:</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="4" name="message"></textarea>
+                        </div>
+                        </div>
+
+                        <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+			                       <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		                    </div>
+	                      </div>
+
+
+                    </form>
+
+
                 </div>
             </div>
         </div>
