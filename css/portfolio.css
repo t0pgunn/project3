@@ -80,6 +80,8 @@ padding-top: 50px;
 
 .gallary ol li a.active {
 	font-weight: 700;
+  color: #E53935;
+
 }
 
 .gallary .gallary-item {
