@@ -18,9 +18,20 @@ html {
     color: white;
 }
 
+.navbar-default .navbar-brand:hover {
+  color: #E53935;
+}
+
 .nav.navbar-nav li a {
     color: white;
 }
+
+.nav.navbar-nav li a:hover {
+
+color: #E53935;
+
+}
+
 
 @media(min-width:767px) {
     .navbar {
@@ -50,16 +61,15 @@ html {
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 25px;
     text-align: center;
     background: #eee;
 }
 
-
-
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 25px;
     text-align: center;
-    background: #eee;
+    background: #E53935;
+    color: white;
 }
