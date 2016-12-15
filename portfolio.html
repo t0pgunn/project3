@@ -93,7 +93,7 @@
     	        <div class="row gallary-thumbs">
 
     	            <div class="col-sm-6 col-md-3 branding">
-    	                <div class="gallary-item">
+    	                <div class="gallary-item" data-toggle="modal" data-target="#myModal">
     	                    <div class="hover-bg">
     	                        <a href="#">
     	                            <div class="hover-text">
@@ -228,6 +228,7 @@
 
   </div>
 
+   <script type="text/javascript" src="http://www.designbootstrap.com/livedemos/2015/02/04/pink/assets/js/jquery.isotope.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
         var $container = $('.animate-grid .gallary-thumbs');
@@ -260,13 +261,27 @@
 
 
 
+<!--Modals-->
 
-
-
-
-
-
-
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
