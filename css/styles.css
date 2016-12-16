@@ -9,7 +9,7 @@ html {
     height: 100%;
 }
 
-  .navbar {
+.navbar {
 
         background-color: black;
     }
@@ -50,6 +50,11 @@ color: #E53935;
 .no-padding {
   padding-left: 0;
   padding-right: 0;
+}
+
+.addpad{
+
+  padding-top: 25px;
 }
 
 .intro-section {
