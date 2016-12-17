@@ -23,41 +23,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Gunnar Zemering</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="portfolio.html">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<?php include "nav-home.php" ?>
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
@@ -155,6 +121,8 @@
 
             <div class="panel-footer">
             <h4>Skills</h4>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
                 <span class="label label-default">Java</span>
                 <span class="label label-default">HTML</span>
                 <span class="label label-default">CSS</span>
@@ -175,6 +143,8 @@
                 <span class="label label-default">Excel</span>
                 <span class="label label-default">PHP</span>
                 <span class="label label-default">JavaScript</span>
+              </div>
+            </div>
             </div>
 
               <div class="panel-heading heading-two">
@@ -195,7 +165,7 @@
           <div class="panel-body">
 
             <div class="row course-list">
-                <div class="col-md-3">
+                <div class="col-sm-3 close-columns">
                     <h3>Digital Media</h3>
                     <ul class="list-group">
                       <li class="list-group-item">Digital Media Toolkit</li>
@@ -207,7 +177,7 @@
                       <li class="list-group-item">Introduction to Visual Culture and Analysis</li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                   <h3>Computer Science</h3>
                   <ul class="list-group">
                     <li class="list-group-item">Web Design and Development</li>
@@ -218,7 +188,7 @@
 
                   </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                   <h3>Mathematics</h3>
                   <ul class="list-group">
                     <li class="list-group-item">Calculus BC</li>
@@ -227,7 +197,7 @@
 
                   </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                   <h3>Science</h3>
                   <ul class="list-group">
                     <li class="list-group-item">Chemisty</li>
@@ -237,6 +207,8 @@
                 </div>
 
             </div>
+
+          <a class="btn btn-default btn-lg  pull-right" href="portfolio.html">View Portfolio</a></div>
 
           </div>
 
