@@ -96,9 +96,14 @@ padding-top: 50px;
 	overflow: hidden;
 	position: relative;
 }
-.categories{
+.gallary .gallary-item p{
 
 padding-bottom: 10px;
+
+}
+.categories{
+
+padding-bottom: 15px;
 
 
 }

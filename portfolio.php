@@ -86,6 +86,7 @@
                               <a href="#">
 
                                   <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <p class="text-center">Processing Sketches</p>
 
                               </a>
 
@@ -99,7 +100,7 @@
                               <a href="#">
 
                                   <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
-
+                                  <p class="text-center">Event Posters</p>
                               </a>
 
                       </div>
@@ -112,6 +113,7 @@
                               <a href="#">
 
                                   <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <p class="text-center">Album Covers</p>
 
                               </a>
 
@@ -125,6 +127,7 @@
                               <a href="#">
 
                                   <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <p class="text-center">Processing Sketches</p>
 
                               </a>
 
@@ -138,6 +141,7 @@
                               <a href="#">
 
                                   <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <p class="text-center">Jasmine</p>
 
                               </a>
 
@@ -151,12 +155,26 @@
                               <a href="#">
 
                                   <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <p class="text-center">Event Apparel</p>
 
                               </a>
 
                       </div>
                   </div>
     	            </div>
+                  <div class="col-sm-6 col-md-3 web">
+                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+                          <div class="hover-bg">
+                              <a href="#">
+
+                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <p class="text-center">ConnectTA</p>
+
+                              </a>
+
+                      </div>
+                  </div>
+                  </div>
 
     	        </div>
     	    </div>
