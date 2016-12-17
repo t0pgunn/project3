@@ -208,7 +208,15 @@
 
             </div>
 
-          <a class="btn btn-default btn-lg  pull-right" href="portfolio.html">View Portfolio</a></div>
+            <div class="pull-right">
+
+            <a class="btn btn-default btn-lg" href="#contact">Contact Me</a>
+            <a class="btn btn-default btn-lg" href="portfolio.html">View Portfolio</a>
+
+
+            </div>
+
+        </div>
 
           </div>
 
@@ -227,7 +235,7 @@
                     <h1>Contact Me</h1>
 
 
-                    <form class="form-horizontal" role="form" action="database-write.php" method="post" role="form" class="form-horizontal">
+                    <form class="form-horizontal" role="form" name="myForm" onsubmit="return(validate()&&validateEmail());" action="database-write.php" method="post" role="form" class="form-horizontal">
 
 
                         <div class="form-group">
@@ -246,9 +254,16 @@
                         </div>
 
                         <div class="form-group">
+                          <label for="phone" class="col-sm-2 control-label" >Phone Number:</label>
+                          <div class="col-sm-10">
+                        	<input type="text" class="form-control" id="phone" name="phone" placeholder="" value="">
+                        </div>
+                        </div>
+
+                        <div class="form-group">
                         <label for="message" class="col-sm-2 control-label" >Message:</label>
                         <div class="col-sm-10">
-                            <textarea class="form-control" rows="4" id="name" name="message"></textarea>
+                            <textarea class="form-control" rows="4" id="message" name="message"></textarea>
                         </div>
                         </div>
 
@@ -276,6 +291,59 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script type="text/javascript">
+        function validate(){
+
+       if( document.myForm.name.value == "" )
+          {
+          alert( "Please provide a name!" );
+          document.myForm.name.focus() ;
+          return false;
+          }
+
+       if( document.myForm.email.value == "" )
+          {
+          alert( "Please provide an email" );
+          document.myForm.email.focus() ;
+          return false;
+          }
+
+        if( document.myForm.phone.value == "" )
+             {
+             alert( "Please provide a phone number" );
+             document.myForm.phone.focus() ;
+             return false;
+             }
+
+        if( document.myForm.message.value == "" )
+                  {
+                  alert( "Your message is blank" );
+                  document.myForm.message.focus() ;
+                  return false;
+                  }
+
+
+       return( true );
+
+    }
+
+    function validateEmail(){
+
+       var emailID = document.myForm.email.value;
+       atpos = emailID.indexOf("@");
+       dotpos = emailID.lastIndexOf(".");
+
+       if (atpos < 1 || ( dotpos - atpos < 2 )) {
+
+          alert("Please enter correct email ID ____@____.___")
+          document.myForm.email.focus() ;
+          return false;
+       }
+
+       return( true );
+    }
+    </script>
+
 
 </body>
 
