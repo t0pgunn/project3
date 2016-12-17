@@ -58,7 +58,7 @@ color: #E53935;
 }
 
 .intro-section {
-    height: 100%;
+    /*height: 100%;*/
     padding-top: 50px;
     margin-bottom: 10px;
     text-align: center;
@@ -66,7 +66,7 @@ color: #E53935;
 }
 
 .about-section {
-    height: 100%;
+    /*height: 100%;*/
     padding-top: 20px;
     text-align: center;
     background: #eee;
@@ -78,4 +78,21 @@ color: #E53935;
     text-align: center;
     background: #E53935;
     color: white;
+}
+.grid-divider {
+    position: relative;
+    padding: 0;
+}
+.grid-divider>[class*='col-'] {
+    position: static;
+}
+.grid-divider>[class*='col-']:nth-child(n+2):before {
+    content: "";
+    border-left: 1px solid #DDD;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.col-padding {
+    padding: 0 15px;
 }
