@@ -4,11 +4,11 @@
 
 $dbhost = "localhost";
 
-$dbuser = "messages";
+$dbuser = "contactme";
 
 $dbpass = "coffee";
 
-$dbname = "messages";
+$dbname = "contactme";
 
 
 

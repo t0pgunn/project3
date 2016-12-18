@@ -9,7 +9,7 @@
 
 	// 2. Perform database query
 
-$query = "SELECT * FROM information";
+$query = "SELECT * FROM messagelist";
 
 
 	$result = mysqli_query($connection, $query);
@@ -32,6 +32,7 @@ $query = "SELECT * FROM information";
       <th>Id</th>
       <th>Name</th>
       <th>Email</th>
+      <th>Phone</th>
       <th>Message</th>
     </tr>
 
@@ -43,9 +44,10 @@ $query = "SELECT * FROM information";
 
 <tr>
   <td><?php echo $pages["id"]; ?></td>
-  <td><?php echo $pages["guestname"]; ?></td>
-  <td><?php echo $pages["guestemail"]; ?></td>
-  <td><?php echo $pages["guestmessage"]; ?></td>
+  <td><?php echo $pages["guest_name"]; ?></td>
+  <td><?php echo $pages["guest_email"]; ?></td>
+  <td><?php echo $pages["guest_phone"]; ?></td>
+  <td><?php echo $pages["guest_message"]; ?></td>
 </tr>
 
 
