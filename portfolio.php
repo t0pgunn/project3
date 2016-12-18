@@ -80,7 +80,7 @@
                   </div>
     	            </div>
 
-    	            <div class="col-sm-6 col-md-3 branding">
+    	            <div class="col-sm-6 col-md-3 art web">
                       <div class="gallary-item" data-toggle="modal" data-target="#myModal">
                           <div class="hover-bg">
                               <a href="#">
@@ -107,7 +107,7 @@
                   </div>
     	            </div>
 
-    	            <div class="col-sm-6 col-md-3 web">
+    	            <div class="col-sm-6 col-md-3 branding art">
                       <div class="gallary-item" data-toggle="modal" data-target="#myModal">
                           <div class="hover-bg">
                               <a href="#">
@@ -121,21 +121,7 @@
                   </div>
     	            </div>
 
-    	            <div class="col-sm-6 col-md-3 art">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
-                          <div class="hover-bg">
-                              <a href="#">
-
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
-                                  <p class="text-center">Processing Sketches</p>
-
-                              </a>
-
-                      </div>
-                  </div>
-    	            </div>
-
-    	            <div class="col-sm-6 col-md-3 photography web">
+    	            <div class="col-sm-6 col-md-3 art web">
                       <div class="gallary-item" data-toggle="modal" data-target="#myModal">
                           <div class="hover-bg">
                               <a href="#">
@@ -149,7 +135,7 @@
                   </div>
     	            </div>
 
-    	            <div class="col-sm-6 col-md-3 web">
+    	            <div class="col-sm-6 col-md-3 branding">
                       <div class="gallary-item" data-toggle="modal" data-target="#myModal">
                           <div class="hover-bg">
                               <a href="#">

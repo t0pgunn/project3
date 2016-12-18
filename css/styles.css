@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,400i,700,700i');
 
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+
+font-family: 'Nunito', sans-serif;
+
 }
 
 html {
@@ -10,6 +22,7 @@ html {
 }
 
 .navbar {
+  font-family: 'Open Sans', sans-serif;
 
         background-color: black;
     }
@@ -73,16 +86,31 @@ color: #E53935;
 }
 
 .contact-section {
+
     /*height: 100%;*/
     padding-top: 20px;
     text-align: center;
-    background: #E53935;
+    background: url("images/always-grey.png") repeat;
+    background-color: #E53935;
     color: white;
 }
 
 .course-list{
 
 margin-top: -40px;
+
+}
+
+.badges{
+
+padding-bottom: 10px;
+
+}
+
+.form-group{
+
+padding-bottom: 15px;
+
 
 }
 

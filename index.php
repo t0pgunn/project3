@@ -210,8 +210,8 @@
 
             <div class="pull-right">
 
-            <a class="btn btn-default btn-lg" href="#contact">Contact Me</a>
-            <a class="btn btn-default btn-lg" href="portfolio.html">View Portfolio</a>
+            <a class="btn btn-default btn-lg page-scroll" href="#contact">Contact Me</a>
+            <a class="btn btn-default btn-lg page-scroll" href="portfolio.html">View Portfolio</a>
 
 
             </div>
@@ -233,42 +233,44 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Contact Me</h1>
+                  </div>
 
-
+                    <div class="row">
+                        <div class="col-lg-12 col-centered">
                     <form class="form-horizontal" role="form" name="myForm" onsubmit="return(validate()&&validateEmail());" action="database-write.php" method="post" role="form" class="form-horizontal">
 
 
                         <div class="form-group">
-                          <label for="name" class="col-sm-2 control-label" >Name:</label>
-                          <div class="col-sm-10">
+                          <label for="name" class="col-sm-1 control-label" >Name</label>
+                          <div class="col-sm-11">
                         	<input type="text" class="form-control" id="name" name="name" placeholder="" value="">
                         </div>
                         </div>
 
 
                         <div class="form-group">
-                          <label for="email" class="col-sm-2 control-label" >Email:</label>
-                          <div class="col-sm-10">
+                          <label for="email" class="col-sm-1 control-label" >Email</label>
+                          <div class="col-sm-11">
                         	<input type="text" class="form-control" id="email" name="email" placeholder="" value="">
                         </div>
                         </div>
 
                         <div class="form-group">
-                          <label for="phone" class="col-sm-2 control-label" >Phone Number:</label>
-                          <div class="col-sm-10">
+                          <label for="phone" class="col-sm-1 control-label" >Phone Number</label>
+                          <div class="col-sm-11">
                         	<input type="text" class="form-control" id="phone" name="phone" placeholder="" value="">
                         </div>
                         </div>
 
                         <div class="form-group">
-                        <label for="message" class="col-sm-2 control-label" >Message:</label>
-                        <div class="col-sm-10">
+                        <label for="message" class="col-sm-1 control-label" >Message</label>
+                        <div class="col-sm-11">
                             <textarea class="form-control" rows="4" id="message" name="message"></textarea>
                         </div>
                         </div>
 
                         <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
+                        <div class="col-sm-12">
 			                       <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
 		                    </div>
 	                      </div>
