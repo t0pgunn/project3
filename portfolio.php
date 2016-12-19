@@ -113,7 +113,7 @@
                           <div class="hover-bg">
                               <a href="#">
 
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <img src="css/images/albums.jpg" class="img-responsive" alt="...">
                                   <p class="text-center">Album Covers</p>
 
                               </a>
@@ -286,13 +286,13 @@
 
 
 
-        <a href="http://www.gunnze.me"><img src="css/images/worms.jpg" alt="worms sketch" class="img-responsive" alt="worms"></a>
+        <a href="http://www.gunnze.me"><img src="css/images/worms.jpg" alt="worms sketch" class="img-responsive"></a>
         <p class="port-label"><a href="http://www.gunnze.me">Worms</a></p>
 
-        <a href="http://www.gunnze.me/pi"><img src="css/images/pi.jpg" alt="pi sketch" class="img-responsive" alt="pi"></a>
+        <a href="http://www.gunnze.me/pi"><img src="css/images/pi.jpg" alt="pi sketch" class="img-responsive"></a>
         <p class="port-label"><a href="http://www.gunnze.pi">Pi</a></p>
 
-        <a href="http://www.gunnze.me/moon"><img src="css/images/moon.jpg" alt="moon sketch" class="img-responsive" alt="moon"></a>
+        <a href="http://www.gunnze.me/moon"><img src="css/images/moon.jpg" alt="moon sketch" class="img-responsive"></a>
         <p class="port-label"><a href="http://www.gunnze.me/moon">Moon</a></p>
 
 
@@ -308,6 +308,7 @@
           </div>
         </div>
         </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -327,10 +328,14 @@
       </div>
       <div class="modal-body">
       <p>Examples of posters, flyers, and invitations for events such as parties, formals, and concerts. </p>
-      <img src="css/images/moon.jpg" alt="new years" class="img-responsive" alt="moon"></a>
-      <img src="css/images/moon.jpg" alt="halloween" class="img-responsive" alt="moon"></a>
-      <img src="css/images/moon.jpg" alt="invitation" class="img-responsive" alt="moon"></a>
+      <img src="css/images/moon.jpg" alt="new years" class="img-responsive">
+      <img src="css/images/moon.jpg" alt="concert" class="img-responsive">
+      <img src="css/images/moon.jpg" alt="halloween" class="img-responsive">
+      <img src="css/images/moon.jpg" alt="invitation" class="img-responsive">
       </div>
+
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
@@ -348,8 +353,46 @@
         <h4 class="modal-title" id="myModalLabel">Album Covers</h4>
       </div>
       <div class="modal-body">
-        ...
+
+        <p>Music branding, artwork, and album covers.</p>
+        <p>Album Cover for <a href="http://lukemetzlermusic.com/">Luke Metzler</a></p>
+        <img src="css/images/home.jpg"class="img-responsive" alt="home">
+
+        <br>
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            <p>Album Covers designed for Jai Paul using the <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal6" > Jasmine project</a>, and 3D rendered in Cinema4D.</p>
+
+          </div>
+
+          <div class="col-xs-6">
+            <img src="css/images/cover1.jpg" alt="=cover1" class="img-responsive">
+            <img src="css/images/cover3.jpg" alt="cover3" class="img-responsive">
+
+          </div>
+          <div class="col-xs-6">
+            <img src="css/images/cover2.jpg" alt="cover2" class="img-responsive">
+            <img src="css/images/cover4.jpg" alt="cover3" class="img-responsive">
+
+          </div>
+        </div>
       </div>
+
+            <div class="panel-footer">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-3">
+                <span class="label label-default">Photoshop</span>
+                <span class="label label-default">Illustrator</span>
+                <span class="label label-default">Cinema4D</span>
+                <span class="label label-default">Processing</span>
+              </div>
+            </div>
+            </div>
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>

@@ -133,6 +133,7 @@
                 <span class="label label-default">After Effects</span>
                 <span class="label label-default">Lightroom</span>
                 <span class="label label-default">Final Cut Pro</span>
+                <span class="label label-default">Cinema4D</span>
                 <span class="label label-default">Unreal Engine</span>
                 <span class="label label-default">Eclipse</span>
                 <span class="label label-default">Processing</span>
