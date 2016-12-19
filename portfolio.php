@@ -25,7 +25,7 @@
 
 <body>
 
-  <?php include "nav-portfolio.php" ?>
+<?php include "inc/nav-portfolio.php" ?>
 
 
 
@@ -171,7 +171,9 @@
 
   </div>
 
-   <script type="text/javascript" src="http://www.designbootstrap.com/livedemos/2015/02/04/pink/assets/js/jquery.isotope.js"></script>
+
+<!-- Javascript plugin for portfolio -->
+<script type="text/javascript" src="http://www.designbootstrap.com/livedemos/2015/02/04/pink/assets/js/jquery.isotope.js"></script>
     <script type="text/javascript">
     $(window).load(function() {
         var $container = $('.animate-grid .gallary-thumbs');
@@ -218,6 +220,19 @@
       <div class="modal-body">
         ...
       </div>
+
+      <div class="panel-footer">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-3">
+          <span class="label label-default">HTML</span>
+          <span class="label label-default">CSS</span>
+          <span class="label label-default">Word</span>
+          <span class="label label-default">PowerPoint</span>
+          <span class="label label-default">JavaScript</span>
+        </div>
+      </div>
+      </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
@@ -334,7 +349,16 @@
       <img src="css/images/moon.jpg" alt="invitation" class="img-responsive">
       </div>
 
+      <div class="panel-footer">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-3">
 
+          <span class="label label-default">Photoshop</span>
+          <span class="label label-default">Illustrator</span>
+
+        </div>
+      </div>
+      </div>
 
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -412,6 +436,23 @@
       <div class="modal-body">
         ...
       </div>
+
+      <div class="panel-footer">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-2">
+          <span class="label label-default">HTML</span>
+          <span class="label label-default">CSS</span>
+          <span class="label label-default">Python</span>
+          <span class="label label-default">Photoshop</span>
+          <span class="label label-default">Illustrator</span>
+          <span class="label label-default">Processing</span>
+          <span class="label label-default">JavaScript</span>
+        </div>
+      </div>
+      </div>
+
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
@@ -431,6 +472,20 @@
       <div class="modal-body">
         ...
       </div>
+
+
+      <div class="panel-footer">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-4">
+
+          <span class="label label-default">Photoshop</span>
+          <span class="label label-default">Illustrator</span>
+
+        </div>
+      </div>
+      </div>
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
@@ -450,6 +505,22 @@
       <div class="modal-body">
         ...
       </div>
+
+      <div class="panel-footer">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-2">
+          <span class="label label-default">Java</span>
+          <span class="label label-default">HTML</span>
+          <span class="label label-default">CSS</span>
+          <span class="label label-default">Photoshop</span>
+          <span class="label label-default">Atom</span>
+          <span class="label label-default">Word</span>
+          <span class="label label-default">PowerPoint</span>
+          <span class="label label-default">JavaScript</span>
+        </div>
+      </div>
+      </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
@@ -468,7 +539,11 @@
 
 
 
+<?php
 
+include "inc/footer.php"
+
+ ?>
 
 </body>
 

@@ -23,7 +23,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<?php include "nav-home.php" ?>
+<?php include "inc/nav-home.php" ?>
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
@@ -284,6 +284,18 @@
             </div>
         </div>
     </section>
+
+
+
+  <?php
+
+  include "inc/footer.php"
+
+   ?>
+
+
+
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
