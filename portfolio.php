@@ -72,7 +72,7 @@
                         <div class="hover-bg">
                             <a href="#">
 
-                                <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                <img src="css/images/processing.jpg" class="img-responsive" alt="...">
                                 <p class="text-center">Processing Sketches</p>
 
                             </a>
