@@ -86,7 +86,7 @@
                           <div class="hover-bg">
                               <a href="#">
 
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <img src="css/images/cinemagraphs.jpg" class="img-responsive" alt="...">
                                   <p class="text-center">Cinemagraphs</p>
                               </a>
 
@@ -235,8 +235,34 @@
         <h4 class="modal-title" id="myModalLabel">Cinemagraphs</h4>
       </div>
       <div class="modal-body">
-        ...
+        <p>A set of 5 cinemagraphs created for the exhibit "Gumption", for Introduction to photography. Each work consists of a still, yet continuously moving photograph which is complimented by a soundscape. <a href="http://gunnze.me/weekes">Click here </a>to view all five in full resolution with sound.</p>
+
+        <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/FastHeftyIbadanmalimbe' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+        <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/DelightfulGivingChimpanzee' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+        <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/SmoothParchedAruanas' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+        <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/FrightenedEarnestBoutu' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+        <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/GrandioseBrownKomododragon' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
       </div>
+
+
+      <div class="panel-footer">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-2">
+          <span class="label label-default">Photoshop</span>
+          <span class="label label-default">After Effects</span>
+          <span class="label label-default">Lightroom</span>
+          <span class="label label-default">Final Cut Pro</span>
+        </div>
+      </div>
+      </div>
+
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
@@ -263,10 +289,10 @@
         <a href="http://www.gunnze.me"><img src="css/images/worms.jpg" alt="worms sketch" class="img-responsive" alt="worms"></a>
         <p class="port-label"><a href="http://www.gunnze.me">Worms</a></p>
 
-        <a href="http://www.gunnze.me/pi"><img src="css/images/pi.jpg" alt="worms sketch" class="img-responsive" alt="pi"></a>
+        <a href="http://www.gunnze.me/pi"><img src="css/images/pi.jpg" alt="pi sketch" class="img-responsive" alt="pi"></a>
         <p class="port-label"><a href="http://www.gunnze.pi">Pi</a></p>
 
-        <a href="http://www.gunnze.me/moon"><img src="css/images/moon.jpg" alt="worms sketch" class="img-responsive" alt="moon"></a>
+        <a href="http://www.gunnze.me/moon"><img src="css/images/moon.jpg" alt="moon sketch" class="img-responsive" alt="moon"></a>
         <p class="port-label"><a href="http://www.gunnze.me/moon">Moon</a></p>
 
 
@@ -300,7 +326,10 @@
         <h4 class="modal-title" id="myModalLabel">Event Posters</h4>
       </div>
       <div class="modal-body">
-        ...
+      <p>Examples of posters, flyers, and invitations for events such as parties, formals, and concerts. </p>
+      <img src="css/images/moon.jpg" alt="new years" class="img-responsive" alt="moon"></a>
+      <img src="css/images/moon.jpg" alt="halloween" class="img-responsive" alt="moon"></a>
+      <img src="css/images/moon.jpg" alt="invitation" class="img-responsive" alt="moon"></a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
