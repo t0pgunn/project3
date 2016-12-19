@@ -69,12 +69,12 @@
             <div class="row">
 
                 <div class="col-sm-6">
-              <h1>Digital Media</h1>
-                <p class="addpad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui risus, mollis non luctus ut, dapibus sed leo. In pulvinar dolor nec urna ornare, fermentum varius ex sodales. Nunc eget posuere arcu. Maecenas quis molestie dui. Nulla facilisi.</p>
+              <h1>Welcome</h1>
+                <p class="addpad">My name is Gunnar Zemering, I am a third year student at the University of Rochester studying Digital Media Science and Computer Science. I graduate in Spring 2018, over time accumulating a courselist focusing on web design, digital art, web development, digital media production and branding. </p>
                 </div>
 
                 <div class="col-sm-6">
-                  <p class="addpad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui risus, mollis non luctus ut, dapibus sed leo. In pulvinar dolor nec urna ornare, fermentum varius ex sodales. Nunc eget posuere arcu. Maecenas quis molestie dui. Nulla facilisi.</p>
+                  <p class="addpad"> On this site you can read my complete list of accomplishments and skills, as well as see some of the work I have been creating on the <a href="portfolio.php">portfolio page.</a> Feel free to contact me with any messages or requests.</p>
                 <div class="addpad"> <a class="btn btn-default page-scroll" href="#about">Learn More</a></div>
                 </div>
 

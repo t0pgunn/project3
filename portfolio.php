@@ -55,7 +55,7 @@
     	        <div class="row gallary-thumbs">
 
     	            <div class="col-sm-6 col-md-3 web">
-    	                <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+    	                <div class="gallary-item" data-toggle="modal" data-target="#myModal1">
     	                    <div class="hover-bg">
     	                        <a href="#">
 
@@ -67,8 +67,22 @@
     	            </div>
                 </div>
 
+                <div class="col-sm-6 col-md-3 art web">
+                    <div class="gallary-item" data-toggle="modal" data-target="#myModal3">
+                        <div class="hover-bg">
+                            <a href="#">
+
+                                <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                <p class="text-center">Processing Sketches</p>
+
+                            </a>
+
+                    </div>
+                </div>
+                </div>
+
     	            <div class="col-sm-6 col-md-3 photography art">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+                      <div class="gallary-item" data-toggle="modal" data-target="#myModal2">
                           <div class="hover-bg">
                               <a href="#">
 
@@ -80,22 +94,9 @@
                   </div>
     	            </div>
 
-    	            <div class="col-sm-6 col-md-3 art web">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
-                          <div class="hover-bg">
-                              <a href="#">
-
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
-                                  <p class="text-center">Processing Sketches</p>
-
-                              </a>
-
-                      </div>
-                  </div>
-    	            </div>
 
     	            <div class="col-sm-6 col-md-3 branding">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+                      <div class="gallary-item" data-toggle="modal" data-target="#myModal4">
                           <div class="hover-bg">
                               <a href="#">
 
@@ -108,7 +109,7 @@
     	            </div>
 
     	            <div class="col-sm-6 col-md-3 branding art">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+                      <div class="gallary-item" data-toggle="modal" data-target="#myModal5">
                           <div class="hover-bg">
                               <a href="#">
 
@@ -122,7 +123,7 @@
     	            </div>
 
     	            <div class="col-sm-6 col-md-3 art web">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+                      <div class="gallary-item" data-toggle="modal" data-target="#myModal6">
                           <div class="hover-bg">
                               <a href="#">
 
@@ -136,7 +137,7 @@
     	            </div>
 
     	            <div class="col-sm-6 col-md-3 branding">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+                      <div class="gallary-item" data-toggle="modal" data-target="#myModal7">
                           <div class="hover-bg">
                               <a href="#">
 
@@ -149,7 +150,7 @@
                   </div>
     	            </div>
                   <div class="col-sm-6 col-md-3 web">
-                      <div class="gallary-item" data-toggle="modal" data-target="#myModal">
+                      <div class="gallary-item" data-toggle="modal" data-target="#myModal8">
                           <div class="hover-bg">
                               <a href="#">
 
@@ -205,14 +206,14 @@
 
 <!--Modals-->
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">University of Rochester Sustainability Program Website</h4>
       </div>
       <div class="modal-body">
         ...
@@ -223,6 +224,167 @@
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Cinemagraphs</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Processing Sketches</h4>
+      </div>
+      <div class="modal-body">
+
+
+        <p>I had created several sketches in processing while learning the language in Introcudtion to Digital Art, so I worked to rewrite them to work with the p5.js language so I could put them on the webpage. Each sketch serves as an experimental doodle to practice writing in Processing, JavaScript, and HTML. </p>
+
+
+
+        <a href="http://www.gunnze.me"><img src="css/images/worms.jpg" alt="worms sketch" class="img-responsive" alt="worms"></a>
+        <p class="port-label"><a href="http://www.gunnze.me">Worms</a></p>
+
+        <a href="http://www.gunnze.me/pi"><img src="css/images/pi.jpg" alt="worms sketch" class="img-responsive" alt="pi"></a>
+        <p class="port-label"><a href="http://www.gunnze.pi">Pi</a></p>
+
+        <a href="http://www.gunnze.me/moon"><img src="css/images/moon.jpg" alt="worms sketch" class="img-responsive" alt="moon"></a>
+        <p class="port-label"><a href="http://www.gunnze.me/moon">Moon</a></p>
+
+
+        <div class="panel-footer">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-2">
+            <span class="label label-default">HTML</span>
+            <span class="label label-default">CSS</span>
+            <span class="label label-default">Photoshop</span>
+            <span class="label label-default">Illustrator</span>
+            <span class="label label-default">Processing</span>
+            <span class="label label-default">JavaScript</span>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Event Posters</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Album Covers</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Jasmine</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Event Apparel</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">ConnectTA</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
