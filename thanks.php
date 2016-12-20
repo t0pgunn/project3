@@ -23,7 +23,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<?php include "inc/nav-home.php" ?>
+<?php include "inc/nav-portfolio.php" ?>
 
     <!-- About Section -->
     <section id="about" class="about-section">

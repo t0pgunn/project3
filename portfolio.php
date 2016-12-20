@@ -59,7 +59,7 @@
     	                    <div class="hover-bg">
     	                        <a href="#">
 
-    	                            <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+    	                            <img src="css/images/uofr.jpg" class="img-responsive" alt="...">
     	                            <p class="text-center">U of R Website</p>
     	                        </a>
 
@@ -100,7 +100,7 @@
                           <div class="hover-bg">
                               <a href="#">
 
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <img src="css/images/posters.jpg" class="img-responsive" alt="...">
                                   <p class="text-center">Event Posters</p>
                               </a>
 
@@ -127,7 +127,7 @@
                           <div class="hover-bg">
                               <a href="#">
 
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <img src="css/images/jasmine.jpg" class="img-responsive" alt="...">
                                   <p class="text-center">Jasmine</p>
 
                               </a>
@@ -141,7 +141,7 @@
                           <div class="hover-bg">
                               <a href="#">
 
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <img src="css/images/shirts.jpg" class="img-responsive" alt="...">
                                   <p class="text-center">Event Apparel</p>
 
                               </a>
@@ -154,7 +154,7 @@
                           <div class="hover-bg">
                               <a href="#">
 
-                                  <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                  <img src="css/images/connecta.jpg" class="img-responsive" alt="...">
                                   <p class="text-center">ConnectTA</p>
 
                               </a>
@@ -218,7 +218,8 @@
         <h4 class="modal-title" id="myModalLabel">University of Rochester Sustainability Program Website</h4>
       </div>
       <div class="modal-body">
-        ...
+        <p>Working with the sustainability and web development deportment at the University of Rochester, we redesigned the site to be more modern, easier to read, and easier navigate. The site plans to launch sometime in 2017.</p>
+      <img src="css/images/website.jpg" alt="website" class="img-responsive"></a>
       </div>
 
       <div class="panel-footer">
@@ -343,10 +344,14 @@
       </div>
       <div class="modal-body">
       <p>Examples of posters, flyers, and invitations for events such as parties, formals, and concerts. </p>
-      <img src="css/images/moon.jpg" alt="new years" class="img-responsive">
-      <img src="css/images/moon.jpg" alt="concert" class="img-responsive">
-      <img src="css/images/moon.jpg" alt="halloween" class="img-responsive">
-      <img src="css/images/moon.jpg" alt="invitation" class="img-responsive">
+      <br>
+      <img src="css/images/poster1.jpg" alt="new years" class="img-responsive">
+      <br>
+      <img src="css/images/poster2.jpg" alt="concert" class="img-responsive">
+      <br>
+      <img src="css/images/poster3.jpg" alt="halloween" class="img-responsive">
+      <br>
+      <img src="css/images/invite.jpg" alt="invitation" class="img-responsive">
       </div>
 
       <div class="panel-footer">
@@ -434,7 +439,15 @@
         <h4 class="modal-title" id="myModalLabel">Jasmine</h4>
       </div>
       <div class="modal-body">
-        ...
+        <p>Jasmine is a work-in-progress application built in p5.js that uses the volume of certain frequencies in a song to generate artwork. Through coding, math, and a little bit of randomness, Jasmine will create colorful and lively artwork that compliments the music it is listening to. Due to the nature of music, each song will generate completely unique artwork. With variable colors, shapes, and sizes, Jasmine can give an identity to songs without one.</p>
+
+        <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/DownrightHonorableHarborporpoise' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+        <p><a href="http://www.gunnze.me/jasmine/">Learn more and try it yourself.</a> (WIP)</p>
+        <p>I plan to explain this project more and how it works when I have time.</p>
+        <p>Prints:</p>
+
+
       </div>
 
       <div class="panel-footer">
@@ -503,7 +516,22 @@
         <h4 class="modal-title" id="myModalLabel">ConnectTA</h4>
       </div>
       <div class="modal-body">
-        ...
+        <p>Th purpose of this project was to redesign the TA hiring and management system for the University of Rochester. My project team wanted a clean and simple design since professors tend to use an excel spreadsheet to keep track of current TA’s and LAB assignment times. Additionally, we wanted to make it easy to access and find information on how to apply for a TA position, and allow for better communication between TA’s, professors, and administrator to have an open dialogue that  decreases the number of complaints between users. </p>
+        <img src="css/images/homep.jpg" alt="home" class="img-responsive">
+        <p>The Welcome Page is meant to welcome users into the program. Design is kept clean in order to keep tasks concentrated. From the home page, current users can log in right away, or new users can learn more about the service through the What We Do page. </p>
+        <img src="css/images/info.jpg" alt="info" class="img-responsive">
+        <p>The second page, titled “What We Do”, will quickly send new users to the most common information they usually need when getting started. The Easy to Sign up Tab will help them connect their blackboard account to the program or connect with IT if they do not have one. The communication tab elaborates on the overall purpose of the program, and the simplified work management page will tell the new user about some of the services that the program provides. </p>
+        <img src="css/images/login.jpg" alt="login" class="img-responsive">
+        <p>A login page, integrated through Blackboard, for accessing the ConnecTa dashboard.</p>
+        <img src="css/images/dashboard.jpg" alt="dashboard" class="img-responsive">
+        <p>The first page that will show up upon login, titled the Dashboard. The dashboard allows the user to see their calendar for upcoming events, message a contact quickly, view recent announcements, or quickly jump over to their blackboard homepage.</p>
+        <img src="css/images/work.jpg" alt="work" class="img-responsive">
+        <p>Under the work panel, users can easily find work, manage current work, and view work related announcements.</p>
+        <img src="css/images/contact.jpg" alt="contact" class="img-responsive">
+        <p>The contacts page is where users can reach out to TA’s, professors, and their workshop peers and labmates if they need help with something.</p>
+
+
+
       </div>
 
       <div class="panel-footer">
