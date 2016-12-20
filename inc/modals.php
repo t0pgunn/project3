@@ -1,6 +1,6 @@
 <!--Modals-->
 
-<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -33,7 +33,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -78,7 +78,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -125,7 +125,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -137,9 +137,9 @@
       <div class="modal-body">
       <p>Examples of posters, flyers, and invitations for events such as parties, formals, and concerts. </p>
       <br>
-      <img src="css/images/poster1.jpg" alt="new years" class="img-responsive">
-      <br>
       <img src="css/images/poster2.jpg" alt="concert" class="img-responsive">
+      <br>
+      <img src="css/images/poster1.jpg" alt="new years" class="img-responsive">
       <br>
       <img src="css/images/poster3.jpg" alt="halloween" class="img-responsive">
       <br>
@@ -164,7 +164,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -221,7 +221,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -265,7 +265,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -275,7 +275,14 @@
         <h4 class="modal-title" id="myModalLabel">Event Apparel</h4>
       </div>
       <div class="modal-body">
-        ...
+        <p>2015 UUA Swimming Championships</p>
+        <img src="css/images/uaa.jpg"class="img-responsive" alt="home">
+        <p>(Gonna change this to a better picture)</p>
+
+        <p>2016 Turkey Bowl</p>
+        <img src="css/images/turkey.jpg"class="img-responsive" alt="home">
+        <p>(This one too)</p>
+
       </div>
 
 
@@ -298,7 +305,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">

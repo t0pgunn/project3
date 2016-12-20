@@ -205,11 +205,11 @@
 
 
 
-    <?php
+<?php
 
-    include "inc/modals.php"
+include "inc/modals.php"
 
-     ?>
+?>
 
 
 

@@ -212,7 +212,7 @@
             <div class="pull-right">
 
             <a class="btn btn-default btn-lg page-scroll" href="#contact">Contact Me</a>
-            <a class="btn btn-default btn-lg page-scroll" href="portfolio.html">View Portfolio</a>
+            <a class="btn btn-default btn-lg page-scroll" href="portfolio.php">View Portfolio</a>
 
 
             </div>
