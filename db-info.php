@@ -2,14 +2,24 @@
 
 
 
+
+
+
+
 $dbhost = "localhost";
 
-$dbuser = "contactme";
 
-$dbpass = "coffee";
+$dbuser = "urcscon3_gzemeri";
 
-$dbname = "contactme";
+$dbpass = "coffee1N/!";
+
+$dbname = "urcscon3_gzemering";
+
+
+
+
 
 
 
  ?>
+
