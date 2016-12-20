@@ -34,15 +34,15 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="https://placehold.it/2560x1080" alt="Chania" width="2560" height="1080">
+          <img src="css/images/hero1.jpg" alt="jasmine" width="2560" height="1080">
         </div>
 
         <div class="item">
-          <img src="https://placehold.it/2560x1080" alt="Chania" width="2560" height="1080">
+          <img src="css/images/hero2.jpg" alt="cds" width="2560" height="1080">
         </div>
 
         <div class="item">
-          <img src="https://placehold.it/2560x1080" alt="Flower" width="2560" height="1080">
+          <img src="css/images/hero3.jpg" alt="Flower" width="2560" height="1080">
         </div>
 
 
