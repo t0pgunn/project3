@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,400i,700,700i');
-
+/*
+Base Styles
+*/
 body {
+
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -10,6 +13,7 @@ body {
 h1{
   font-family: 'Open Sans', sans-serif;
 }
+
 p{
 
 font-family: 'Nunito', sans-serif;
@@ -20,6 +24,10 @@ html {
     width: 100%;
     height: 100%;
 }
+
+/*
+Navbar Styles
+*/
 
 .navbar {
   font-family: 'Open Sans', sans-serif;
@@ -45,6 +53,28 @@ color: #E53935;
 
 }
 
+/*
+Layout
+*/
+
+.about-section {
+    /*height: 100%;*/
+    padding-top: 20px;
+    text-align: center;
+    background: #eee;
+}
+
+.thanks{
+
+  padding-top: 50px;
+
+}
+
+
+/*
+Media Queries
+*/
+
 
 @media(min-width:767px) {
     .navbar {
@@ -58,13 +88,3 @@ color: #E53935;
         padding: 0;
     }
 }
-
-
-.about-section {
-    /*height: 100%;*/
-    padding-top: 20px;
-    text-align: center;
-    background: #eee;
-}
-
-.panel{padding-top: 50px;}

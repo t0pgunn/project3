@@ -11,19 +11,19 @@
       </div>
       <div class="modal-body">
         <p>Working with the sustainability and web development deportment at the University of Rochester, we redesigned the site to be more modern, easier to read, and easier navigate. The site plans to launch sometime in 2017.</p>
-      <img src="css/images/website.jpg" alt="website" class="img-responsive"></a>
+        <img src="css/images/website.jpg" alt="website" class="img-responsive"></a>
       </div>
 
       <div class="panel-footer">
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-3">
-          <span class="label label-default">HTML</span>
-          <span class="label label-default">CSS</span>
-          <span class="label label-default">Word</span>
-          <span class="label label-default">PowerPoint</span>
-          <span class="label label-default">JavaScript</span>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-3">
+            <span class="label label-default">HTML</span>
+            <span class="label label-default">CSS</span>
+            <span class="label label-default">Word</span>
+            <span class="label label-default">PowerPoint</span>
+            <span class="label label-default">JavaScript</span>
+          </div>
         </div>
-      </div>
       </div>
 
       <div class="modal-footer">
@@ -59,14 +59,14 @@
 
 
       <div class="panel-footer">
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-2">
-          <span class="label label-default">Photoshop</span>
-          <span class="label label-default">After Effects</span>
-          <span class="label label-default">Lightroom</span>
-          <span class="label label-default">Final Cut Pro</span>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-2">
+            <span class="label label-default">Photoshop</span>
+            <span class="label label-default">After Effects</span>
+            <span class="label label-default">Lightroom</span>
+            <span class="label label-default">Final Cut Pro</span>
+          </div>
         </div>
-      </div>
       </div>
 
 
@@ -105,16 +105,16 @@
 
 
         <div class="panel-footer">
-        <div class="row">
-          <div class="col-sm-10 col-sm-offset-2">
-            <span class="label label-default">HTML</span>
-            <span class="label label-default">CSS</span>
-            <span class="label label-default">Photoshop</span>
-            <span class="label label-default">Illustrator</span>
-            <span class="label label-default">Processing</span>
-            <span class="label label-default">JavaScript</span>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-2">
+              <span class="label label-default">HTML</span>
+              <span class="label label-default">CSS</span>
+              <span class="label label-default">Photoshop</span>
+              <span class="label label-default">Illustrator</span>
+              <span class="label label-default">Processing</span>
+              <span class="label label-default">JavaScript</span>
+            </div>
           </div>
-        </div>
         </div>
 
       </div>
@@ -135,26 +135,26 @@
         <h4 class="modal-title" id="myModalLabel">Event Posters</h4>
       </div>
       <div class="modal-body">
-      <p>Examples of posters, flyers, and invitations for events such as parties, formals, and concerts. </p>
-      <br>
-      <img src="css/images/poster2.jpg" alt="concert" class="img-responsive">
-      <br>
-      <img src="css/images/poster1.jpg" alt="new years" class="img-responsive">
-      <br>
-      <img src="css/images/poster3.jpg" alt="halloween" class="img-responsive">
-      <br>
-      <img src="css/images/invite.jpg" alt="invitation" class="img-responsive">
+        <p>Examples of posters, flyers, and invitations for events such as parties, formals, and concerts. </p>
+        <br>
+        <img src="css/images/poster2.jpg" alt="concert" class="img-responsive">
+        <br>
+        <img src="css/images/poster1.jpg" alt="new years" class="img-responsive">
+        <br>
+        <img src="css/images/poster3.jpg" alt="halloween" class="img-responsive">
+        <br>
+        <img src="css/images/invite.jpg" alt="invitation" class="img-responsive">
       </div>
 
       <div class="panel-footer">
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-3">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-3">
 
-          <span class="label label-default">Photoshop</span>
-          <span class="label label-default">Illustrator</span>
+            <span class="label label-default">Photoshop</span>
+            <span class="label label-default">Illustrator</span>
 
+          </div>
         </div>
-      </div>
       </div>
 
       <div class="modal-footer">
@@ -202,16 +202,16 @@
         </div>
       </div>
 
-            <div class="panel-footer">
-            <div class="row">
-              <div class="col-sm-10 col-sm-offset-3">
-                <span class="label label-default">Photoshop</span>
-                <span class="label label-default">Illustrator</span>
-                <span class="label label-default">Cinema4D</span>
-                <span class="label label-default">Processing</span>
-              </div>
-            </div>
-            </div>
+      <div class="panel-footer">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-3">
+            <span class="label label-default">Photoshop</span>
+            <span class="label label-default">Illustrator</span>
+            <span class="label label-default">Cinema4D</span>
+            <span class="label label-default">Processing</span>
+          </div>
+        </div>
+      </div>
 
 
       <div class="modal-footer">
@@ -243,17 +243,17 @@
       </div>
 
       <div class="panel-footer">
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-2">
-          <span class="label label-default">HTML</span>
-          <span class="label label-default">CSS</span>
-          <span class="label label-default">Python</span>
-          <span class="label label-default">Photoshop</span>
-          <span class="label label-default">Illustrator</span>
-          <span class="label label-default">Processing</span>
-          <span class="label label-default">JavaScript</span>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-2">
+            <span class="label label-default">HTML</span>
+            <span class="label label-default">CSS</span>
+            <span class="label label-default">Python</span>
+            <span class="label label-default">Photoshop</span>
+            <span class="label label-default">Illustrator</span>
+            <span class="label label-default">Processing</span>
+            <span class="label label-default">JavaScript</span>
+          </div>
         </div>
-      </div>
       </div>
 
 
@@ -276,25 +276,25 @@
       </div>
       <div class="modal-body">
         <p>2015 UUA Swimming Championships</p>
-        <img src="css/images/uaa.jpg"class="img-responsive" alt="home">
+        <img src="css/images/uaa.jpg"class="img-responsive" alt="uaa">
         <p>(Gonna change this to a better picture)</p>
 
         <p>2016 Turkey Bowl</p>
-        <img src="css/images/turkey.jpg"class="img-responsive" alt="home">
+        <img src="css/images/turkey.jpg"class="img-responsive" alt="turkey">
         <p>(This one too)</p>
 
       </div>
 
 
       <div class="panel-footer">
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-4">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-4">
 
-          <span class="label label-default">Photoshop</span>
-          <span class="label label-default">Illustrator</span>
+            <span class="label label-default">Photoshop</span>
+            <span class="label label-default">Illustrator</span>
 
+          </div>
         </div>
-      </div>
       </div>
 
 
@@ -334,18 +334,18 @@
       </div>
 
       <div class="panel-footer">
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-2">
-          <span class="label label-default">Java</span>
-          <span class="label label-default">HTML</span>
-          <span class="label label-default">CSS</span>
-          <span class="label label-default">Photoshop</span>
-          <span class="label label-default">Atom</span>
-          <span class="label label-default">Word</span>
-          <span class="label label-default">PowerPoint</span>
-          <span class="label label-default">JavaScript</span>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-2">
+            <span class="label label-default">Java</span>
+            <span class="label label-default">HTML</span>
+            <span class="label label-default">CSS</span>
+            <span class="label label-default">Photoshop</span>
+            <span class="label label-default">Atom</span>
+            <span class="label label-default">Word</span>
+            <span class="label label-default">PowerPoint</span>
+            <span class="label label-default">JavaScript</span>
+          </div>
         </div>
-      </div>
       </div>
 
       <div class="modal-footer">

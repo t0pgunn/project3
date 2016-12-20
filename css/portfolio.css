@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,400i,700,700i');
 
+/*
+Base Styles
+*/
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Nunito', sans-serif;
 }
 
 html {
@@ -10,8 +14,15 @@ html {
     height: 100%;
 }
 
-.navbar {
 
+
+
+/*
+Navbar Styles
+*/
+
+.navbar {
+    font-family: 'Open Sans', sand-serif;
     background-color: black;
 
 }
@@ -34,7 +45,14 @@ color: #E53935;
 
 }
 
-ul, ol { padding: 0;}
+ul, ol { padding: 0;
+
+}
+
+
+/*
+Layout
+*/
 
 .portfoliocontainer{
 
@@ -43,9 +61,18 @@ font-family: 'Nunito', sans-serif;
 
 }
 
-/*GALLARY*/
+.categories{
+
+padding-bottom: 15px;
+
+}
+
+/*
+Gallary
+*/
+
 .gallary .fa.fa-plus {
-    height: 30px;
+  height: 30px;
 	width: 30px;
 	border: 1px solid #FCAC45;
 	font-size: 20px;
@@ -104,14 +131,6 @@ font-family: 'Nunito', sans-serif;
 padding-bottom: 10px;
 
 }
-.categories{
-
-padding-bottom: 15px;
-
-
-}
-
-
 
 .isotope-item {
     z-index: 2;
@@ -150,6 +169,12 @@ padding-bottom: 15px;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
 }
+
+
+/*
+Media Queries
+*/
+
 
 @media (max-width: 767px) {
     .isotope {

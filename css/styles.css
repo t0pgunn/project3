@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,400i,700,700i');
+/*
+Base Styles
+*/
 
 body {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 h1{
@@ -12,6 +14,7 @@ h1{
   font-family: 'Open Sans', sans-serif;
 
 }
+
 p{
 
 font-family: 'Nunito', sans-serif;
@@ -22,6 +25,10 @@ html {
     width: 100%;
     height: 100%;
 }
+
+/*
+Navbar Styles
+*/
 
 .navbar {
 
@@ -47,20 +54,9 @@ color: #E53935;
 
 }
 
-
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
-
+/*
+Layout
+*/
 
 .no-padding {
   padding-left: 0;
@@ -70,7 +66,36 @@ color: #E53935;
 .addpad{
 
   padding-top: 25px;
+
 }
+
+.course-list{
+
+margin-top: -40px;
+
+}
+
+.badges{
+
+padding-bottom: 10px;
+
+}
+
+.form-group{
+
+padding-bottom: 15px;
+
+}
+
+.close-columns{
+
+margin: 0px;
+
+}
+
+/*
+3 Sections
+*/
 
 .intro-section {
     /*height: 100%;*/
@@ -97,27 +122,16 @@ color: #E53935;
     color: white;
 }
 
-.course-list{
 
-margin-top: -40px;
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
 
-}
-
-.badges{
-
-padding-bottom: 10px;
-
-}
-
-.form-group{
-
-padding-bottom: 15px;
-
-
-}
-
-.close-columns{
-
-margin: 0px;
-
+    .top-nav-collapse {
+        padding: 0;
+    }
 }
