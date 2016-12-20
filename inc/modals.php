@@ -1,6 +1,9 @@
 <!--Modals-->
 
-
+<!-- I was going to create a page for each project, but I learned about modals and they were cool
+and actually really easy to use. Also, I put it on a seperate PHP include because it was a long
+list of code to scroll through when it was all on one. There are 8 modals, one for each project.
+They include basic information, links, and bages. -->
 
 <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" >
 
@@ -90,7 +93,7 @@
 
         <p>A set of 5 cinemagraphs created for the exhibit "Gumption", for Introduction to photography. Each work consists of a still, yet continuously moving photograph which is complimented by a soundscape. <a href="http://gunnze.me/weekes">Click here </a>to view all five in full resolution with sound.</p>
 
-
+        <!-- Here are those cool gifs that the validator shoots up all of the errors for -->
 
         <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/FastHeftyIbadanmalimbe' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
@@ -709,4 +712,3 @@
   </div>
 
 </div>
-

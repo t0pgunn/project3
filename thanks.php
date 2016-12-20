@@ -1,3 +1,5 @@
+<!-- Pretty basic page, just one section with one container and a thank you message. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +12,7 @@
   <meta name="author" content="Gunnar Zemering">
 
   <title>Gunnar Zemering - Thank You</title>
-  
+
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
 

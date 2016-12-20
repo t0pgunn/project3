@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,400i,700,700i');
 
-
+/*Similar to styles.css, basic changes for padding. Also includes all of the CSS for the
+portfolio plugin.*/
 
 /*
 
@@ -393,9 +394,6 @@ Media Queries
     }
 
 
-	
+
 
 }
-
-
-

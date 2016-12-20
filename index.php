@@ -1,3 +1,19 @@
+
+
+<!-- This website has a long scrolly homepage with 3 sections and a page for the portfolio.
+The site uses the bootstrap framework and a plugin to scroll the home page. The portfolio
+uses a jquery plugin to present and arrange the works, also using bootstrap modals. The contact
+form validates every slot and also checks that the email is valid, and then writes it to the table
+in the database. A few includes are used like the nav bar, the footer, and the modals,  since the
+portfolio page was so long when they were included. I chose to use basic SMACSS architexture when
+writing it. There is also a thank you page which the user is taken to after submitting the for.
+Some of the stuff on the portfolio page links to my personal site / server since it wouldve been
+too much space for the class server. Only Validation errors are role declarations.-->
+
+
+
+
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -52,7 +68,7 @@
 
 
 
-  <!-- Intro Section -->
+  <!-- Intro Section and full page width slideshow -->
 
   <section id="intro" class="intro-section">
 
@@ -132,7 +148,7 @@
 
 
 
-    <!-- About Section -->
+    <!-- About Section and Resume-->
 
   <section id="about" class="about-section">
 
@@ -147,6 +163,7 @@
             <h1>About me</h1>
 
 
+<!-- I chose to use a panel to make it easier to arrange information -->
 
             <div class="panel">
 
@@ -201,6 +218,7 @@
               </div>
 
 
+<!-- Cool badge list of skills -->
 
               <div class="panel-footer">
 
@@ -259,6 +277,7 @@
               </div>
 
 
+<!-- Second chunk of info -->
 
               <div class="panel-heading heading-two">
 
@@ -292,7 +311,7 @@
 
               <div class="panel-body">
 
-
+                <!-- Course List Columns -->
 
                 <div class="row course-list">
 
@@ -429,7 +448,7 @@
 
 
 
-      <!-- Contact Section -->
+      <!-- Contact FormS -->
 
       <section id="contact" class="contact-section">
 
@@ -448,6 +467,8 @@
             <div class="row">
 
               <div class="col-lg-12 col-centered">
+
+                <!-- A bootstrap form that writes only if everything validates -->
 
                 <form class="form-horizontal" role="form" name="myForm" onsubmit="return(validate()&&validateEmail());" action="database-write.php" method="post">
 
@@ -547,7 +568,7 @@
 
 
 
-
+<!-- Footer -->
 
         <?php
 
@@ -588,6 +609,9 @@
 <script src="js/scrolling-nav.js"></script>
 
 <script type="text/javascript">
+
+// Validate function
+
 
 function validate(){
 
@@ -700,4 +724,3 @@ function validateEmail(){
 
 
 </html>
-

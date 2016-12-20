@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,400i,700,700i');
+
+/*I chose to use Open Sans for bigger text and Nunito for everything else, I thought they
+complimented eachother well. Most CSS is just for basic adjustments and color changes. */
+
+
+
+
 /*
 Base Styles
 */
@@ -122,6 +129,12 @@ margin: 0px;
     background-color: #E53935;
     color: white;
 }
+
+
+
+/*
+Media Query
+*/
 
 
 @media(min-width:767px) {

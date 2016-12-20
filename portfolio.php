@@ -1,3 +1,9 @@
+<!-- Similar to the main page, but only one section with the porfolio.
+There are a lot of validation errors over the GIF site service I used but they
+dont affect the performance of the site.-->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +39,7 @@
   <div class="portfoliocontainer">
 
     <section>
-
+      <!-- Create the labels at the top of the image grid -->
       <div class="gallary animate-grid">
         <div class="container">
 
@@ -54,6 +60,8 @@
               </div>
             </div>
           </div>
+
+          <!-- Buttons that move and activate Modals -->
 
           <div class="row gallary-thumbs">
 
@@ -178,7 +186,8 @@
   </div>
 
 
-  <!-- Javascript plugin for portfolio -->
+  <!-- Javascript plugin for portfolio functionality-->
+
   <script type="text/javascript" src="http://www.designbootstrap.com/livedemos/2015/02/04/pink/assets/js/jquery.isotope.js"></script>
   <script type="text/javascript">
   $(window).load(function() {
@@ -210,7 +219,7 @@
   </script>
 
 
-
+<!-- Include all the modal information -->
   <?php
 
   include "inc/modals.php"
@@ -219,7 +228,7 @@
 
 
 
-
+<!-- Footer -->
   <?php
 
   include "inc/footer.php"
