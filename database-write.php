@@ -24,6 +24,6 @@ if($NumberOfRowsAffected < 1 ) {
 
 mysqli_close($connection);
 
-header("Location: database-read.php");
+header("Location: thanks.php");
 
  ?>
